@@ -206,14 +206,14 @@ dt {
 .bar-column .bar-row{
     height: 2%;
     width: 80%;
-    background: linear-gradient(rgb(228, 235, 227), rgb(73, 144, 202));
+    background: #0b043b;
     padding: 10px;
     margin-top: 5%;
     box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
     border-radius: 10px;
 }
 .bar-column .first-bar-row{
-    background: linear-gradient(rgb(231, 60, 55), rgb(73, 144, 202));
+    background: #0b043b;
 }
 .bar-column .last-bar-row{
     position: absolute;
@@ -222,11 +222,14 @@ dt {
 }
 .bar-column .bar-row:hover{
     box-shadow: 0 5px 15px rgba(0, 0, 0, .6);
-    transform: translateX(10%);
+    transform: scaleX(110%);
+    border-right: none;
+    border-bottom-right-radius: 0%;
+    border-top-right-radius: 0%;
     background: #8FC79A;
 }
 .bar-row a{
-    color: #1c00f2;
+    color: white;
     text-decoration: none;
     display: flex;
     place-items: center;

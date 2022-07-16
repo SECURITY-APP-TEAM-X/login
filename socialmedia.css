@@ -1,7 +1,6 @@
 .social-media {
     display: inline-flex;
     list-style: none;
-    margin-left: 8.2%;
 }
 .social-media .icon{
     position: relative;

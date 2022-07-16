@@ -2,7 +2,7 @@
     height: 52%;
     width: 90%;
     top: 0%;
-    background-image: linear-gradient(rgb(228, 235, 227), rgb(73, 144, 202));
+    background-image: linear-gradient(#CEE9B6, rgb(73, 144, 202));
     box-sizing: border-box;
     border-radius: 10px;
     display: flex;
@@ -10,9 +10,9 @@
     margin-top: 2%;
 }
 .location-box{
-    height: 35px;
+    height: 55px;
     width: 90%;
-    margin-top: 0%;
+    margin-top: 1%;
     display: flex;
     background: linear-gradient(rgb(228, 235, 227), rgb(73, 144, 202));
     box-sizing: border-box;
@@ -20,12 +20,18 @@
     align-items: center;
 }
 .location-box .location-input{
-    margin-left: 0.5%;
-    height: 80%;
+    background-color: transparent;
+    border-radius: 16px;
+    color: #1c00f2;
+    margin-left: 1.5%;
+    height: 60%;
     width: 80%;
     border-radius: 10px;
     font-size: 14px;
-    border: solid rgb(73, 144, 202);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-top: transparent;
 }
 .location-box .location-icon{
     margin-left: 7%;
